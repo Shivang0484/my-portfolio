@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    .navbar-inverse .navbar-brand {
+      color: white;
+    }
+
+    .navbar-inverse .navbar-brand:hover {
+      color: rgb(238, 105, 57);
+    }
+
+    .navbar-inverse .navbar-nav>li>a {
+      color: white;
+    }
+
+    .navbar-inverse .navbar-nav>li>a:hover {
+      color: rgb(238, 105, 57);
+    }
+
+    .open>.dropdown-menu {
+      display: block;
+      border-radius: 10px;
+    }
+
+    .dropdown-menu>li>a:hover {
+      color: orangered;
+    }
+
+    .container p {
+      text-align: center;
+      font-size: 20px;
+    }
+
+    .container .row a {
+      text-decoration: none;
+      color: black;
+    }
+
+    .container .row a:hover {
+      color: orangered;
+    }
+
+    h2 {
+      color: orangered;
+    }
+
+    .container .row .col-sm-3 .thumbnail a img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
+    .container .row .col-sm-3 .thumbnail .overlay {
+      position: absolute;
+      bottom: 100%;
+      left: 16px;
+      right: 16px;
+      background-color: #3b3b3a;
+      overflow: hidden;
+      height: 0;
+      transition: .5s ease;
+    }
+
+    .container .row .col-sm-3 .thumbnail:hover .overlay {
+      bottom: 0;
+      height: 100%;
+      opacity: .5;
+    }
+
+    .container .row .col-sm-3 .thumbnail .text {
+      color: white;
+      font-size: 20px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+
+    textarea {
+      width: 50%;
+      text-align: center;
+      color: black;
+      padding-top: 10px;
+    }
+
+    ::placeholder {
+      color: black;
+      font-size: 15px;
+    }
+
+    input[type=submit] {
+      height: 40px;
+      width: 50%;
+      border: none;
+      background-color: black;
+      color: white;
+      font-size: 15px;
+      text-align: center;
+      cursor: pointer;
+    }
+
+    input[type=submit]:hover {
+      background-color: orangered;
+    }
+
+    footer {
+      min-height: 150px;
+      width: 100%;
+      background-color: orangered;
+      color: white;
+      text-align: center;
+      padding-top: 60px;
+      font-size: 20px;
+      font-family: Arial, Helvetica, sans-serif;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-inverse">
+    <div class="container">
+      <ul class="nav navbar-nav">
+        <li><a href="home.html">HOME</a></li>
+        <li><a href="gallery.html">GALLERY</a></li>
+        <li><a href="aboutus.html">ABOUT US</a></li>
+        <li><a href="contactus.html">CONTACT US</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="signup.html"><span class="glyphicon glyphicon-user"></span> SIGN UP</a></li>
+        <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> LOGIN</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <center>
+    <div class="jumbotron" style="width: 95%;">
+      <h2>ABOUT US</h2>
+    </div>
+  </center>
+  <br><br>
+
+  <div class="container">
+    <h2>Welcome To Shop</h2><br><br>
+    <div class="row">
+
+
+      <div class="col-md-3" style="position: static;">
+        <img src="images/about us/shop.png" alt="">
+      </div>
+      <div class="col-md-8">
+        <div class="text" style="text-wrap: balance; max-width: 650px; margin-left: 50px;">
+          Nulla auctor mauris ut dui luctus semper. In hac habitasse platea dictumst. Duis pellentesque ligula a risus
+          suscipit dignissim.Nunc non nisl lacus. Integer pharetra lacinia dapibus. Donec eu dolor dui, vel posuere
+          mauris.
+          Pellentesque semper congue sodales. <br><br>
+          In consequat, metus eget con sequat ornare, augue dolor blandit purus, vitae
+          lacinia nisi tellus in erat.Nulla ac justo eget massa aliquet sodales.
+          <br><br>
+          Maecenas mattis male suada sem, in fringilla massa dapibus quis.
+          In consequat, metus eget con sequat ornare, augue dolor blandit purus.
+        </div>
+      </div>
+    </div>
+  </div>
+  <br><br>
+
+  <center>
+    <h2>OUR MEMBERS</h2>
+    <br>
+    <p style="font-size: 15px; text-wrap: balance;">Consectetur adipiscing elit. Donec pellentesque venenatis elit, quis
+      aliquet mauris
+      malesuada vel. Donec vitae libero dolor, eget dapibus justo. <br>
+      Aenean facilisis aliquet feugiat. Suspendisse lacinia congue est ac semper. Nulla ut elit magna, vitae volutpat
+      magna.</p>
+  </center>
+  <br><br>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-3">
+        <div class="thumbnail">
+          <a href=""><img src="images/about us/cl-image-1.png" alt="">
+            <div class="overlay">
+              <div class="text">Saige Fuentes</div>
+            </div>
+        </div>
+        </a>
+        <p>Tech Leader</p>
+      </div>
+      <div class="col-sm-3">
+        <div class="thumbnail">
+          <a href=""><img src="images/about us/cl-image-2.png" alt="">
+            <div class="overlay">
+              <div class="text">Brienne</div>
+            </div>
+        </div>
+        </a>
+        <p>Manager</p>
+      </div>
+      <div class="col-sm-3">
+        <div class="thumbnail">
+          <a href=""><img src="images/about us/cl-image-3.png" alt="">
+            <div class="overlay">
+              <div class="text">Franklin Sierra</div>
+            </div>
+        </div>
+        </a>
+        <p>Art Director</p>
+      </div>
+      <div class="col-sm-3">
+        <div class="thumbnail">
+          <a href=""><img src="images/about us/cl-image-4.png" alt="">
+            <div class="overlay">
+              <div class="text">Fernlee</div>
+            </div>
+        </div>
+        </a>
+        <p>Design Leader</p>
+      </div>
+    </div>
+
+    <br>
+  </div>
+  <br>
+  <center>
+    <h2>SEND US YOUR FEEDBACK</h2>
+  </center>
+  <br>
+
+  <div class="container">
+    <center>
+      <div class="form">
+        <textarea name="" id="" cols="20" rows="3" placeholder="Enter Your Message"></textarea> <br><br>
+        <input type="submit">
+        <br>
+      </div>
+      <br>
+    </center>
+  </div>
+  <br>
+
+  <footer>
+    <p>&copy; Designed by Shivang Sharma. All righs reserved.</p>
+  </footer>
+
+</body>
+
+</html>

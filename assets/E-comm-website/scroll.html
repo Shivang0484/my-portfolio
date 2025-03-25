@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Swipe Up Animation</title>
+  <style>
+    /* styles.css */
+    body {
+      font-family: Arial, sans-serif;
+      height: 200vh;
+      /* To enable scrolling */
+      background: #f0f0f0;
+      margin: 0;
+      padding: 0;
+    }
+
+    .content {
+      padding: 20px;
+    }
+
+    .swipe-up {
+      opacity: 0;
+      transform: translateY(50px);
+      transition: opacity 0.5s ease, transform 0.5s ease;
+      background: #007aff;
+      color: white;
+      padding: 20px;
+      border-radius: 10px;
+      position: relative;
+      margin: 20px 0;
+    }
+
+    .swipe-up.show {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="content">
+    <h1>Scroll down to see the animation!</h1>
+    <div class="swipe-up">Swipe Up Animation!</div>
+    <p>Keep scrolling...</p>
+    <p>More content here...</p>
+    <p>Keep going!</p>
+    <p>Almost there...</p>
+    <p>End of the content.</p>
+    <!-- More content to enable scrolling -->
+  </div>
+  <script>
+    // script.js
+    let hasAnimated = false;
+
+    window.addEventListener('scroll', () => {
+      const element = document.querySelector('.swipe-up');
+      const position = element.getBoundingClientRect();
+
+      // Check if the element is in the viewport
+      if (!hasAnimated && position.top < window.innerHeight && position.bottom >= 0) {
+        element.classList.add('show');
+        hasAnimated = true; // Prevent further animations
+      }
+    });
+
+  </script>
+</body>
+
+</html>
