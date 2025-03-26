@@ -266,7 +266,7 @@ form button:hover {
 
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 480px) {
     img {
         height: 120px;
         width: 120px;
@@ -330,20 +330,21 @@ form button:hover {
 
 @media only screen and (max-width: 768px) {
     .icon-container img {
-        width: 50px;
-        height: 50px;
+        width: 60px;
+        height: 60px;
         margin-right: 30px;
     }
 }
 
 @media only screen and (max-width: 450px) {
+@media only screen and (max-width: 480px) {
     .heading-2 {
         margin-left: 40px;
     }
 
     .icon-container img {
-        width: 45px;
-        height: 45px;
+        width: 55px;
+        height: 55px;
     }
 
     #programming-languages {
@@ -506,6 +507,9 @@ form button:hover {
         grid-template-columns: 1fr;
         width: 90%;
     }
+    #programming-languages .progress-bar {
+        height: 7px;
+    }
 
     .project-thumbnail {
         justify-content: center;
@@ -637,7 +641,7 @@ html {
     }
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 480px) {
     nav {
         height: 80px;
     }
