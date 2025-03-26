@@ -336,7 +336,6 @@ form button:hover {
     }
 }
 
-@media only screen and (max-width: 450px) {
 @media only screen and (max-width: 480px) {
     .heading-2 {
         margin-left: 40px;
