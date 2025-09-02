@@ -516,7 +516,8 @@ form button:hover {
 @media only screen and (max-width: 768px) {
     #projects {
         grid-template-columns: 1fr;
-        width: 90%;
+        width: 100%;
+        max-width: 100%;
     }
     #programming-languages .progress-bar {
         height: 7px;
@@ -636,7 +637,7 @@ html {
     nav ul li {
         text-align: center;
         margin: 10px 0;
-        margin-right: 120px;
+        margin-right: 0;
     }
 
     /* Show the hamburger icon on small screens */
