@@ -134,7 +134,7 @@ img {
 .skills-list li {
     list-style-type: none;
     background: #f0f2f5;
-    padding: 10px 15px;
+    padding: 10px 20px;
     border-radius: 5px;
     box-shadow: 0 5px 15px rgba(8, 7, 7, 0.4);
     animation: bounce 1s infinite alternate;
@@ -235,6 +235,7 @@ form button:hover {
 @media only screen and (max-width:768px) {
     .skills-list {
         flex-direction: column;
+        margin-right: 15px;
     }
 
     .input-container {
