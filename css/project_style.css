@@ -345,30 +345,15 @@ form button:hover {
     }
 }
 
-@media only screen and (max-width: 480px) {
-    .heading-2 {
-        margin-left: 40px;
-    }
-
-    .icon-container img {
-        width: 55px;
-        height: 55px;
-    }
-
-    #programming-languages {
-        margin-left: 40px;
-    }
-
-    #call_from_nav_projects {
-        margin-left: 20px;
-    }
-
-    #call_from_nav_contact {
-        margin-left: 30px;
-    }
-
+@media only screen and (max-width: 450px) {
+    .heading-2,
+    #programming-languages,
+    #call_from_nav_projects,
+    #call_from_nav_contact,
     .social-links {
-        margin-left: 30px;
+        margin-left: 0; 
+        margin-right: 0;
+        text-align: center;  
     }
 }
 
