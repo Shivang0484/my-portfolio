@@ -3,7 +3,7 @@
 /* Header text typing code starts */
 
 function changeAboutMeText() {
-    const aboutMeTexts = ["Tech Enthusiast", "Frontend Web Developer", "App Developer"]; // Add more texts as needed
+    const aboutMeTexts = ["Tech Enthusiast", "Frontend Developer", "Web Developer"]; // Add more texts as needed
     const typingSpeed = 100; // milliseconds per character
     const eraseSpeed = 50; // milliseconds per character during erasing
     const pauseTime = 1500; // milliseconds to pause between each text change
