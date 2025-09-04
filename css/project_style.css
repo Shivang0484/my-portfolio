@@ -642,7 +642,7 @@ html {
 
     /* Toggle visibility of menu */
     .nav-active {
-        left: 0;
+        left: -50;
     }
 }
 
