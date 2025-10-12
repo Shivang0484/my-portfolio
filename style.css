@@ -670,6 +670,7 @@ header p {
     padding: 100px 10px;
     background-color: rgb(238, 238, 238);
     border-left: 2px solid #ccc;
+    z-index: 99;
     transition: 0.5s;
   }
 
