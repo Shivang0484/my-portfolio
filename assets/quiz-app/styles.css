@@ -1,0 +1,144 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #1e1e2e, #282a36);
+    color: #fff;
+    margin: 0;
+}
+
+.quiz-container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    width: 350px;
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #ff79c6;
+}
+
+#question {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+#options button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    background: rgba(255, 255, 255, 0.15);
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#options button:hover {
+    background: rgba(255, 255, 255, 0.3);
+    transform: scale(1.05);
+}
+
+/* Timer Styling */
+#timer {
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #50fa7b;
+}
+
+/* Next Button */
+#next-btn {
+    margin-top: 15px;
+    padding: 12px;
+    background: #6272a4;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+#next-btn:hover {
+    background: #50fa7b;
+    color: black;
+    transform: scale(1.05);
+}
+
+.hidden {
+    display: none;
+}
+
+/* Result Section */
+#result {
+    text-align: center;
+}
+
+#result h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #ffb86c;
+}
+
+#score {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Restart Button - Glowing Neon Effect */
+#result button {
+    margin-top: 15px;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(90deg, #ff79c6, #bd93f9);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.3s;
+    box-shadow: 0 0 10px #ff79c6;
+}
+
+#result button:hover {
+    background: linear-gradient(90deg, #bd93f9, #ff79c6);
+    box-shadow: 0 0 20px #ff79c6;
+    transform: scale(1.05);
+}
+
+/* Correct and Wrong Answer Styles */
+.correct {
+    background: #50fa7b !important;
+    color: black !important;
+}
+
+.wrong {
+    background: #ff5555 !important;
+    color: white !important;
+}
+
+/* Responsive Design */
+@media (max-width: 400px) {
+    .quiz-container {
+        width: 90%;
+        padding: 20px;
+    }
+}

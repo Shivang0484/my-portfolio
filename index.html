@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+
+  <!-- CSS Styling Link -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Dark Mode Styling CSS Link -->
+  <link rel="stylesheet" href="dark-mode.css">
+
+  <!-- Favicon Icon -->
+  <link rel="icon" href="./assets/images/icon.png" />
+
+  <!-- Poppins Font Family Link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Teko:wght@300..700&display=swap"
+    rel="stylesheet" />
+
+  <!-- Scroll Animation Link -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+  <!-- Navbar Code Starts -->
+
+  <nav class="navbar">
+    <!-- Logo and Links -->
+    <div class="logo">
+      <h2>My Portfolio</h2>
+    </div>
+
+    <div class="nav-link-div">
+      <ul>
+        <li><a href="#call_from_nav_header" class="nav-link">Intro</a></li>
+        <li><a href="#call_from_nav_skills" class="nav-link">Skills</a></li>
+        <li><a href="#programming-languages" class="nav-link">Languages</a></li>
+        <li><a href="#call_from_nav_projects" class="nav-link">Projects</a></li>
+        <li><a href="#call_from_nav_contact" class="nav-link">Contact</a></li>
+        <svg class="close-menu" xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px"
+          fill="ccc">
+          <path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+        </svg>
+      </ul>
+
+      <button id="darkModeToggle" class="dark-mode-btn">
+        <img id="darkModeIcon" src="./assets/images/dark-mode-icon.png" alt="Toggle Dark Mode" width="24">
+      </button>
+    </div>
+
+    <!-- Hamburger icon -->
+    <div class="hamburger">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </nav>
+
+  <!-- Navbar Code Ends -->
+
+  <!-- Header Code Starts -->
+
+  <header id="call_from_nav_header" data-aos="fade-down" data-aos-duration="1500">
+    <img src="./assets/images/Shivang.png" alt="Shivang's pic" />
+    <h1>Hello, I am Shivang, a <span class="about-me"></span></h1>
+    <p>
+      Passionate computer science student at ASM Polytechnic, Mathura,
+      currently pursuing a diploma in Computer Science and Engineering. I have
+      a strong foundation in web development, app development and programming
+      languages, and I am always eager to learn and grow in the tech world. My
+      skills include: HTML, CSS, Bootstrap, JavaScript, Java, Python, PHP,
+      MySQL. Explore my portfolio to learn more about my projects and journey!
+    </p>
+  </header>
+
+  <!-- Header Code Ends -->
+
+  <!-- Skill Section Code Starts -->
+
+  <section id="call_from_nav_skills" class="skills-section" data-aos="fade-right">
+    <h2>My Skills</h2>
+    <div class="skills-list">
+      <ul>
+        <li>Web Developer</li>
+        <li>UI/UX Developer</li>
+        <li>Frontend Developer</li>
+      </ul>
+    </div>
+
+    <div class="horizontal-scroll">
+      <div class="icon-container">
+        <img src="./assets/icon/html.png" alt="html-logo" />
+        <img src="./assets/icon/css.png" alt="css-logo" />
+        <img src="./assets/icon/javascript.png" alt="JS-logo" />
+        <img src="./assets/icon/bootstrap.png" alt="bootstrap-logo" />
+        <img src="./assets/icon/react.png" alt="react-logo" />
+        <img src="./assets/icon/tailwind-css.png" alt="tailwind-css-logo" />
+        <img src="./assets/icon/mysql.png" alt="mysql-logo" />
+        <img src="./assets/icon/java.png" alt="java-logo" />
+        <img src="./assets/icon/python.png" alt="python-logo" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Skill Section Code Ends -->
+
+  <!-- Languages Section Starts -->
+
+  <section class="languages-section" id="programming-languages">
+    <h2 data-aos="fade-right">Programming Languages</h2>
+    <div class="skill" data-aos="fade-right">
+      <p>HTML</p>
+      <div class="progress-bar" data-progress="90"></div>
+    </div>
+    <div class="skill" data-aos="fade-right">
+      <p>CSS</p>
+      <div class="progress-bar" data-progress="85"></div>
+    </div>
+    <div class="skill" data-aos="fade-right">
+      <p>JavaScript</p>
+      <div class="progress-bar" data-progress="75"></div>
+    </div>
+    <div class="skill" data-aos="fade-right">
+      <p>Bootstrap</p>
+      <div class="progress-bar" data-progress="85"></div>
+    </div>
+    <div class="skill" data-aos="fade-right">
+      <p>React</p>
+      <div class="progress-bar" data-progress="80"></div>
+    </div>
+    <div class="skill" data-aos="fade-right">
+      <p>Tailwind CSS</p>
+      <div class="progress-bar" data-progress="85"></div>
+    </div>
+    <div class="skill" data-aos="fade-right">
+      <p>Java & Python (Basics)</p>
+      <div class="progress-bar" data-progress="65"></div>
+    </div>
+    <div class="skill" data-aos="fade-right">
+      <p>Oracle/MySQL (Basics)</p>
+      <div class="progress-bar" data-progress="60"></div>
+    </div>
+  </section>
+
+  <!-- Language Section Code Ends -->
+
+  <!-- Projects Section Code Starts -->
+
+  <section id="call_from_nav_projects" class="projects-section">
+    <h2 data-aos="fade-right">My Projects</h2>
+    <p data-aos="fade-right">Take a look at some of my works.</p>
+    <section class="projects-div">
+      <div class="project-thumbnail" data-aos="zoom-out-up">
+        <div class="thumbnail-content">
+          <img src="./assets/thumbnails/project-1.jpg" alt="Project 1" />
+          <h3>Quiz Web App</h3>
+          <p>Created a basic quiz web app using HTML, CSS and JS.</p>
+          <a href="./assets/quiz-app/index.html" class="click-btn btn-style" target="_blank">Know More</a>
+        </div>
+      </div>
+      <div class="project-thumbnail" data-aos="zoom-out-up">
+        <div class="thumbnail-content">
+          <img src="./assets/thumbnails/project-2.jpg" alt="Project 2" />
+          <h3>Rock-Paper-Scissors Game</h3>
+          <p>I created this game using HTML, CSS and JavaScript.</p>
+          <a href="./assets/rock-paper-scissors/rock_paper_scissors.html" class="click-btn btn-style"
+            target="_blank">Know More</a>
+        </div>
+      </div>
+      <div class="project-thumbnail" data-aos="zoom-out-up">
+        <div class="thumbnail-content">
+          <img src="./assets/thumbnails/project-3.jpg" alt="Project 3" />
+          <h3>E-Commerce Website</h3>
+          <p>
+            E-commerce website UI clone using HTML, CSS and
+            Bootstrap.
+          </p>
+          <a href="./assets/E-comm-website/home.html" class="click-btn btn-style" target="_blank">Know More</a>
+        </div>
+      </div>
+    </section>
+  </section>
+
+  <!-- Projects Section Code Ends -->
+
+  <!-- Contact Me Section Code Starts -->
+
+  <section id="call_from_nav_contact" class="contact-form-section">
+    <h2 data-aos="fade-right">Contact Me</h2>
+    <form action="" class="contact-form" data-aos="fade-left">
+      <div class="form-group">
+        <div class="input-container">
+          <input type="text" id="name" name="name" placeholder="" required />
+          <label for="name">Enter Name</label>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <div class="input-container">
+          <input type="email" id="email" name="email" placeholder="" required />
+          <label for="name">Enter Email</label>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <div class="input-container">
+          <textarea type="message" id="message" name="message" placeholder="" required></textarea>
+          <label for="name">Your Message</label>
+        </div>
+      </div>
+
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <!-- Contact Me Section Code Ends -->
+
+  <!-- Contact Information Section Code Starts -->
+
+  <section class="social-links">
+    <h2 data-aos="fade-right">Contact Information</h2>
+    <p data-aos="fade-left">Let's connect!</p>
+    <div class="social-icons" data-aos="fade-left">
+      <a href="mailto:shivangsharmaji@gmail.com" class="icon-link"><img src="./assets/images/gmail.png"
+          alt="gmail-icon" /></a>
+      <a href="https://www.linkedin.com/in/shivang-sharma-686997334/" target="_blank" class="icon-link"><img
+          src="./assets/images/linkedin.png" alt="linkedin-icon" /></a>
+      <a href="https://www.instagram.com/the_name_is_shivang/" target="_blank" class="icon-link"><img
+          src="./assets/images/instagram.png" alt="instagram-icon" /></a>
+      <a href="https://wa.me/+916396480484" target="_blank" class="icon-link"><img src="./assets/images/whatsapp.png"
+          alt="whatsapp-icon" /></a>
+    </div>
+  </section>
+
+  <!-- Contact Information Section Code Ends -->
+
+  <!-- Footer Section Code Starts -->
+
+  <footer class="footer">
+    <p>&copy; 2024, Build by Shivang Sharma.</p>
+  </footer>
+
+  <!-- Footer Section Code Ends -->
+
+  <!-- Scroll to Top Button Code Starts -->
+
+  <div class="scroll-to-top" id="scrollToTop">
+    <svg class="progress-ring" width="60" height="60">
+      <circle class="progress-ring__circle" stroke="#1b7dcd" stroke-width="2" fill="transparent" r="26" cx="30"
+        cy="30" />
+    </svg>
+    <span>↑</span>
+  </div>
+
+  <!-- Scroll to Top Button Code Ends -->
+
+  <!-- Script Page Link -->
+  <script src="script.js"></script>
+
+  <!-- Scroll Animation Customization -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      offset: 100,
+      once: true,
+      easing: 'ease-in-out',
+      duration: 1500
+    });
+  </script>
+
+  <!-- EmailJS Connection Link -->
+  <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+
+  <!-- Function for sending data of Contact Form -->
+  <script>
+    (function () {
+      emailjs.init("CGU_BeLP9MC1G231W");
+    })();
+  </script>
+
+</body>
+
+</html>

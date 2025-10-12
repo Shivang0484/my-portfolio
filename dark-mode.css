@@ -1,0 +1,94 @@
+/* Code for enabling Dark Mode Starts */
+
+/* Dark Mode Styles */
+body.dark-mode {
+  background-color: #121212; /* natural dark background */
+  color: #f5f5f5; /* light text */
+}
+
+/* Change navbar background and text for dark mode */
+body.dark-mode .navbar {
+  background-color: #1b1b1b;
+  border-bottom: 2px solid #444;
+}
+
+body.dark-mode .navbar .logo h2 {
+  background: linear-gradient(to right, #1b7dcd, #f90b0b);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+body.dark-mode .navbar ul li a {
+  color: #f5f5f5;
+}
+
+body.dark-mode .nav-link::after {
+  background-color: #f5f5f5;
+}
+
+/* Dark Mode background blur adjustment */
+body.dark-mode .navbar::before {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+/* Optional: Change hamburger color in dark mode */
+body.dark-mode .navbar .hamburger div {
+  background-color: #f5f5f5;
+}
+
+body.dark-mode .skills-section .skills-list ul li {
+  background-color: #1b1b1b;
+  border: 2px solid #f5f5f5;
+}
+
+body.dark-mode .btn-style {
+  color: #f5f5f5;
+  border-color: #f5f5f5;
+}
+
+body.dark-mode .contact-form {
+  background-color: #1b1b1b;
+  color: #f5f5f5;
+  border: 2px solid #f5f5f5;
+}
+
+body.dark-mode .contact-form .form-group .input-container input,
+body.dark-mode .contact-form .form-group .input-container textarea {
+  background-color: #1b1b1b;
+  color: #f5f5f5;
+  border: 2px solid #f5f5f5;
+}
+
+body.dark-mode .contact-form .form-group .input-container label {
+  color: #f5f5f5;
+}
+
+body.dark-mode .contact-form .form-group .input-container input:focus + label,
+body.dark-mode
+  .contact-form
+  .form-group
+  .input-container
+  input:not(:placeholder-shown)
+  + label {
+  color: #f5f5f5;
+  background-color: #1b1b1b;
+}
+
+body.dark-mode
+  .contact-form
+  .form-group
+  .input-container
+  textarea:focus
+  + label,
+body.dark-mode
+  .contact-form
+  .form-group
+  .input-container
+  textarea:not(:placeholder-shown)
+  + label {
+  color: #f5f5f5;
+  background-color: #1b1b1b;
+}
+
+/* Code for enabling Dark Mode Ends */
