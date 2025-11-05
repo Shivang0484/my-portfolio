@@ -405,6 +405,7 @@ header p {
   position: relative;
   border-color: #831bcd;
   color: #831bcd;
+  z-index: 1;
   overflow: hidden;
 }
 
