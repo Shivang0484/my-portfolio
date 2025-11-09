@@ -92,17 +92,17 @@ html {
 }
 
 .mobile-links {
-  width: 60%;
+  width: 80%;
   height: 100vh;
   background-color: black;
-  position: absolute;
+  position: fixed;
   top: 0;
-  right: -80%;
+  right: -100%;
   display: flex;
   align-items: flex-start;
   justify-content: center;
   z-index: 20;
-  transition: 0.5s ease;
+  transition: right 0.5s ease;
 }
 
 .mobile-links span {
@@ -155,6 +155,10 @@ html {
 }
 
 .hamburger-active {
+  right: 0;
+}
+
+.mobile-links.hamburger-active {
   right: 0;
 }
 /* Navbar Code Ends */
@@ -1754,6 +1758,7 @@ html {
   }
   .mobile-links {
     width: 80%;
+    right: -100%;
   }
   .mobile-links span {
     top: 10px;
