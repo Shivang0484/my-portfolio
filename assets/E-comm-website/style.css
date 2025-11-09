@@ -42,8 +42,11 @@ html {
   gap: 30px;
 }
 
-.left-links ul a {
+.left-links ul li {
   list-style-type: none;
+}
+
+.left-links ul a {
   color: white;
   cursor: pointer;
   text-decoration: none;
@@ -62,8 +65,11 @@ html {
   gap: 30px;
 }
 
-.right-links ul a {
+.right-links ul li {
   list-style-type: none;
+}
+
+.right-links ul a {
   color: white;
   cursor: pointer;
   text-decoration: none;
@@ -123,10 +129,13 @@ html {
   padding-top: 100px;
 }
 
+.mobile-links ul li {
+  list-style-type: none;
+}
+
 .mobile-links ul a {
   color: white;
   text-decoration: none;
-  list-style-type: none;
 }
 
 .mobile-links ul a:hover {
