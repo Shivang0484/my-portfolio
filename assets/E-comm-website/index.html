@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My-Store | E-commerce Website Clone</title>
+
+  <!-- Styling CSS Link -->
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+  <!-- Navbar Code Starts -->
+  <nav class="navbar-black">
+    <div class="logo">
+      <h1>My<span>Store</span></h1>
+    </div>
+    <div class="left-links">
+      <ul>
+        <a href="./index.html">
+          <li>Home</li>
+        </a>
+        <a href="./shop.html">
+          <li>Shop</li>
+        </a>
+        <a href="./about.html">
+          <li>About Us</li>
+        </a>
+        <a href="./contact.html">
+          <li>Contact Us</li>
+        </a>
+      </ul>
+    </div>
+    <div class="right-links">
+      <ul>
+        <a href="./signup.html">
+          <li>Sign Up</li>
+        </a>
+        <a href="./login.html">
+          <li>Login</li>
+        </a>
+      </ul>
+    </div>
+    <div class="hamburger">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </nav>
+
+  <div class="mobile-links">
+    <span class="close-icon">&times;</span>
+    <ul>
+      <a href="./index.html">
+        <li>Home</li>
+      </a>
+      <a href="./shop.html">
+        <li>Shop</li>
+      </a>
+      <a href="./about.html">
+        <li>About Us</li>
+      </a>
+      <a href="./contact.html">
+        <li>Contact Us</li>
+      </a>
+      <a href="./signup.html">
+        <li>Sign Up</li>
+      </a>
+      <a href="./login.html">
+        <li>Login</li>
+      </a>
+    </ul>
+  </div>
+  <!-- Navbar Code Ends -->
+
+  <!-- Image Carousel Code Starts -->
+  <div class="carousel" id="carousel">
+    <div class="carousel-inner" id="carouselInner">
+      <div class="carousel-item active">
+        <img src="./images/carousel/sample-1.jpg" alt="Image 1">
+      </div>
+      <div class="carousel-item">
+        <img src="./images/carousel/sample-2.jpg" alt="Image 2">
+      </div>
+      <div class="carousel-item">
+        <img src="./images/carousel/sample-3.jpg" alt="Image 3">
+      </div>
+    </div>
+    <button class="carousel-btn left" id="prevBtn">&#8249;</button>
+    <button class="carousel-btn right" id="nextBtn">&#8250;</button>
+    <div class="carousel-dots" id="dots">
+      <span class="dot active" data-slide="0"></span>
+      <span class="dot" data-slide="1"></span>
+      <span class="dot" data-slide="2"></span>
+    </div>
+  </div>
+  <!-- Image Carousel Code Ends -->
+
+  <!-- Shop by Categories Section Code Starts -->
+  <div class="categories-section">
+    <div class="category-heading">
+      <h1>SHOP BY CATEGORIES</h1>
+    </div>
+    <div class="category-images">
+      <div class="category-des">
+        <div class="category-img">
+          <img src="./images/columns/bag-backpacks.jpg" alt="">
+        </div>
+        <div class="category-text">
+          <h3>BAG AND BAGPACKS</h3>
+          <p>5 Products</p>
+        </div>
+      </div>
+      <div class="category-des">
+        <div class="category-img">
+          <img src="./images/columns/shoes-sandals.jpg" alt="">
+        </div>
+        <div class="category-text">
+          <h3>TROUSERS AND JEANS</h3>
+          <p>5 Products</p>
+        </div>
+      </div>
+      <div class="category-des">
+        <div class="category-img">
+          <img src="./images/columns/skirts-dresses.jpg" alt="">
+        </div>
+        <div class="category-text">
+          <h3>SHOES AND SANDALS</h3>
+          <p>5 Products</p>
+        </div>
+      </div>
+      <div class="category-des">
+        <div class="category-img">
+          <img src="./images/columns/trousers-jeans.jpg" alt="">
+        </div>
+        <div class="category-text">
+          <h3>SKIRT AND DRESSES</h3>
+          <p>5 Products</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Shop by Categories Section Code Ends -->
+
+  <!-- Featured Products Section Code Starts -->
+  <div class="featured-products">
+    <div class="featured-heading">
+      <h1>FEATURED PRODUCTS</h1>
+    </div>
+    <div class="featured-div">
+      <div class="featured-left">
+        <img src="./images/featured/img-1.jpg" alt="">
+      </div>
+      <div class="featured-right">
+        <div class="featured-right-top">
+          <img src="./images/featured/img-2.jpg" alt="">
+        </div>
+        <div class="featured-right-bottom">
+          <img src="./images/featured/img-3.jpg" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Featured Products Section Code Starts -->
+
+  <!-- Best Selling Products Section Code Starts -->
+  <div class="best-selling-container">
+    <div class="bs-heading">
+      <h1>BEST SELLING PRODUCTS</h1>
+    </div>
+    <div class="bs-products-div">
+      <div class="bs-products">
+        <div class="bs-image">
+          <img src="./images/best-selling/printed-chiffon-dress (1).jpg" alt="">
+        </div>
+        <div class="bs-image-des">
+          <h4>Product Name</h4>
+          <p>Min. 30% Discount</p>
+        </div>
+      </div>
+      <div class="bs-products">
+        <div class="bs-image">
+          <img src="./images/best-selling/printed-chiffon-dress (2).jpg" alt="">
+        </div>
+        <div class="bs-image-des">
+          <h4>Product Name</h4>
+          <p>Min. 30% Discount</p>
+        </div>
+      </div>
+      <div class="bs-products">
+        <div class="bs-image">
+          <img src="./images/best-selling/printed-chiffon-dress (3).jpg" alt="">
+        </div>
+        <div class="bs-image-des">
+          <h4>Product Name</h4>
+          <p>Min. 30% Discount</p>
+        </div>
+      </div>
+      <div class="bs-products">
+        <div class="bs-image">
+          <img src="./images/best-selling/printed-chiffon-dress (4).jpg" alt="">
+        </div>
+        <div class="bs-image-des">
+          <h4>Product Name</h4>
+          <p>Min. 30% Discount</p>
+        </div>
+      </div>
+      <div class="bs-products">
+        <div class="bs-image">
+          <img src="./images/best-selling/printed-chiffon-dress (5).jpg" alt="">
+        </div>
+        <div class="bs-image-des">
+          <h4>Product Name</h4>
+          <p>Min. 30% Discount</p>
+        </div>
+      </div>
+      <div class="bs-products">
+        <div class="bs-image">
+          <img src="./images/best-selling/printed-chiffon-dress (6).jpg" alt="">
+        </div>
+        <div class="bs-image-des">
+          <h4>Product Name</h4>
+          <p>Min. 30% Discount</p>
+        </div>
+      </div>
+      <div class="bs-products">
+        <div class="bs-image">
+          <img src="./images/best-selling/printed-chiffon-dress (7).jpg" alt="">
+        </div>
+        <div class="bs-image-des">
+          <h4>Product Name</h4>
+          <p>Min. 30% Discount</p>
+        </div>
+      </div>
+      <div class="bs-products">
+        <div class="bs-image">
+          <img src="./images/best-selling/printed-chiffon-dress (8).jpg" alt="">
+        </div>
+        <div class="bs-image-des">
+          <h4>Product Name</h4>
+          <p>Min. 30% Discount</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Best Selling Products Section Code Starts -->
+
+  <!-- Featured Brand Section Code Starts -->
+   <div class="featured-brands-container">
+    <div class="brands-heading">
+      <h1>FEATURED BRANDS</h1>
+    </div>
+    <div class="brands-div">
+      <div class="brands-img">
+        <img src="./images/featured-brands/1.jpg" alt="">
+      </div>
+      <div class="brands-img">
+        <img src="./images/featured-brands/2.jpg" alt="">
+      </div>
+      <div class="brands-img">
+        <img src="./images/featured-brands/3.jpg" alt="">
+      </div>
+      <div class="brands-img">
+        <img src="./images/featured-brands/4.jpg" alt="">
+      </div>
+      <div class="brands-img">
+        <img src="./images/featured-brands/5.jpg" alt="">
+      </div>
+      <div class="brands-img">
+        <img src="./images/featured-brands/6.jpg" alt="">
+      </div>
+      <div class="brands-img">
+        <img src="./images/featured-brands/7.jpg" alt="">
+      </div>
+      <div class="brands-img">
+        <img src="./images/featured-brands/8.jpg" alt="">
+      </div>
+      <div class="brands-img">
+        <img src="./images/featured-brands/9.jpg" alt="">
+      </div>
+      <div class="brands-img">
+        <img src="./images/featured-brands/10.jpg" alt="">
+      </div>
+      <div class="brands-img">
+        <img src="./images/featured-brands/11.jpg" alt="">
+      </div>
+      <div class="brands-img">
+        <img src="./images/featured-brands/12.jpg" alt="">
+      </div>
+    </div>
+   </div>
+  <!-- Featured Brand Section Code Ends -->
+
+  <!-- Gallery Images Section Code Starts -->
+   <div class="gallery-images-container">
+    <div class="gallery-heading">
+      <h1>GALLERY IMAGES</h1>
+    </div>
+    <div class="gallery-images-div">
+      <div class="gallery-img">
+        <img src="./images/image-gallery/1-s.jpg" alt="">
+      </div>
+      <div class="gallery-img">
+        <img src="./images/image-gallery/2-s.jpg" alt="">
+      </div>
+      <div class="gallery-img">
+        <img src="./images/image-gallery/3-s.jpg" alt="">
+      </div>
+      <div class="gallery-img">
+        <img src="./images/image-gallery/4-s.jpg" alt="">
+      </div>
+      <div class="gallery-img">
+        <img src="./images/image-gallery/5-s.jpg" alt="">
+      </div>
+      <div class="gallery-img">
+        <img src="./images/image-gallery/6-s.jpg" alt="">
+      </div>
+    </div>
+   </div>
+  <!-- Gallery Images Section Code Ends -->
+
+  <!-- Newsletter Section Code Starts -->
+   <div class="newsletter-container">
+    <div class="newsletter-heading">
+      <h1>SUBSCRIBE FOR NEWSLETTER</h1>
+    </div>
+    <div class="newsletter-div">
+      <input class="newsletter-input" type="text" placeholder="Enter Your Email Address..">
+      <button class="newsletter-btn">Submit</button>
+    </div>
+   </div>
+  <!-- Newsletter Section Code Ends -->
+
+  <!-- Footer Code Starts -->
+   <div class="footer">
+    <p>&copy; All rights reserved. Designed & developed by Shivang Sharma.</p>
+   </div>
+  <!-- Footer Code Ends -->
+
+  <!-- JavaScript Link -->
+  <script src="./script.js"></script>
+</body>
+
+</html>
