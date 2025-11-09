@@ -2,6 +2,7 @@
 let hamburger = document.querySelector(".hamburger");
 let mobileLinks = document.querySelector(".mobile-links");
 let closeIcon = document.querySelector(".close-icon");
+let menuLinks = document.querySelectorAll('.mobile-links a');
 
 hamburger.addEventListener("click", () => {
   mobileLinks.classList.add("hamburger-active");
