@@ -12,6 +12,13 @@ closeIcon.addEventListener("click", () => {
   mobileLinks.classList.remove("hamburger-active");
   mobileLinks.classList.remove('bg-blur');
 });
+
+menuLinks.forEach((link) => {
+  link.addEventListener('click', () => {
+    mobileLinks.classList.remove('hamburger-active');
+    mobileLinks.classList.remove('bg-blur');
+  });
+});
 // Navbar Code Ends
 
 // Image Carousel Code Starts
